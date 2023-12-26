@@ -3,6 +3,7 @@
 <head>
     <title>Garbage Mail</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts/front.js"></script>
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
     </header>
     <main>
         <h1>Garbage Mail</h1>
-        <button id="generateEmail">Vygenerovat E-mailovou Adresu</button>
+        <button id="generateEmail" onclick="outputRandomEmail()">Vygenerovat E-mailovou Adresu</button>
         <textarea id="emailDisplayTextarea" readonly placeholder="Vygenerovaná adresa se zobrazí zde...">
         </textarea>
         
