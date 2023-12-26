@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #005792; /* Modrá barva */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#generateEmail {
+    background-color: #ffdd57; /* Žlutá barva */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generateEmail:hover {
+    background-color: #fcbf49; /* Tmavší odstín žluté pro hover */
+}
+
+#emailDisplay {
+    margin-top: 20px;
+    background-color: #e6e6e6; /* Šedá barva */
+    padding: 20px;
+}
+#emailDisplayTextarea {
+    width: 80%; /* Nastavuje šířku textarea */
+    height: 100px; /* Nastavuje výšku textarea */
+    margin: 20px auto; /* Centruje textarea a dává prostor nahoře a dole */
+    padding: 10px; /* Vnitřní odsazení */
+    background-color: #e6e6e6; /* Šedá barva */
+    border: 2px solid #005792; /* Modrá okrajová barva */
+    color: #333; /* Barva textu */
+    font-family: Arial, sans-serif; /* Typ písma */
+    font-size: 14px; /* Velikost písma */
+    resize: none; /* Zabrání uživatelům změnit velikost textarea */
+     /* Zabrání uživatelům editovat obsah */
+}
