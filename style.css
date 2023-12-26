@@ -52,7 +52,7 @@ main {
 }
 #emailDisplayTextarea {
     width: 80%; /* Nastavuje šířku textarea */
-    height: 100px; /* Nastavuje výšku textarea */
+    height: 20px; /* Nastavuje výšku textarea */
     margin: 20px auto; /* Centruje textarea a dává prostor nahoře a dole */
     padding: 10px; /* Vnitřní odsazení */
     background-color: #e6e6e6; /* Šedá barva */
